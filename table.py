@@ -1,4 +1,5 @@
 import os
+import time
 
 def clr(): #this is for resetting screen
     input ("Press enter to return.")
@@ -6,12 +7,15 @@ def clr(): #this is for resetting screen
 
 def d1(): #elements
     print ("This is Hydrogen.")
+    clr()
 
 def d2(): 
     print ("This is Helium")
+    clr()
 
 def d3(): 
     print ("This is Lithium")
+    clr()
 
 def d4():
     print("")
@@ -148,6 +152,12 @@ def d47():
 def d48():
     print ("")
 
+def d49():
+    print ("")
+
+def d50():
+    print ("")
+
 def tracker() : #main nav
     number = input("Enter a number")
     if number == "1" :
@@ -206,6 +216,39 @@ def tracker() : #main nav
         tracker()
     elif number == "19":
         d19()
+        tracker()
+    elif number == "20":
+        d20()
+        tracker()
+    elif number == "21":
+        d21()
+        tracker ()
+    elif number == "22":
+        d22()
+        tracker()
+    elif number == "23":
+        d23()
+        tracker()
+    elif number == "24":
+        d24()
+        tracker()
+    elif number == "25":
+        d25()
+        tracker()
+    elif number == "26":
+        d25()
+        tracker()
+    elif number == "27":
+        d27()
+        tracker()
+    elif number == "28":
+        d28()
+        tracker()
+    elif number == "29":
+        d29()
+        tracker()
+    elif number == "30":
+        d30()
         tracker()
     exit()
 
