@@ -6,15 +6,39 @@ def clr(): #this is for resetting screen
     os.system("cls")
 
 def d1(): #elements
-    print ("This is Hydrogen.")
+    print ("This is Hydrogen[H]")
+    print ("Atomic Number: 1")
+    print ("Atomic Weight: 1.00794")
+    print ("Melting Point: 13.81 K (-259.34°C or -434.81°F)")
+    print ("Boiling Point: 20.28 K (-252.87°C or -423.17°F)")
+    print ("Density: 0.00008988 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Gas")
+    print ("Element Classification: Non-metal")
+    print ("Period Number: 1    Group Number: 1")
     clr()
 
 def d2(): 
-    print ("This is Helium")
+    print ("This is Helium[He]")
+    print ("Atomic Number: 2")
+    print ("Atomic Weight: 4.002602")
+    print ("Melting Point: 0.95 K (-272.2°C or -458.0°F)")
+    print ("Boiling Point: 4.22 K (-268.93°C or -452.07°F")
+    print ("Density: 0.0001785 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Gas")
+    print ("Element Classification: Non-metal")
+    print ("Period Number: 1    Group Number: 18    Group Name: Noble Gas")
     clr()
 
 def d3(): 
-    print ("This is Lithium")
+    print ("This is Lithium[Li]")
+    print ("Atomic Number: 3")
+    print ("Atomic Weight: 6.941")
+    print ("Melting Point: 453.65 K (180.50°C or 356.90°F)")
+    print ("Boiling Point: 1615 K (1342°C or 2448°F)")
+    print ("Density: 0.534 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 2    Group Number: 1    Group Name: Alkali Metal")
     clr()
 
 def d4():
@@ -159,7 +183,8 @@ def d50():
     print ("")
 
 def tracker() : #main nav
-    number = input("Enter a number")
+    number = input("Enter a number:")
+    print ("                                                     ")
     if number == "1" :
         d1()
         tracker()
@@ -249,6 +274,66 @@ def tracker() : #main nav
         tracker()
     elif number == "30":
         d30()
+        tracker()
+    elif number == "31":
+        d31()
+        tracker()
+    elif number == "32":
+        d32()
+        tracker()
+    elif number == "33":
+        d33()
+        tracker()
+    elif number == "34":
+        d34()
+        tracker()
+    elif number == "35":
+        d35()
+        tracker()
+    elif number == "36":
+        d36()
+        tracker()
+    elif number == "37":
+        d37()
+        tracker()
+    elif number == "38":
+        d38()
+        tracker()
+    elif number == "39":
+        d39()
+        tracker()
+    elif number == "40":
+        d40()
+        tracker()
+    elif number == "41":
+        d41()
+        tracker()
+    elif number == "42":
+        d42()
+        tracker()
+    elif number == "43":
+        d43()
+        tracker()
+    elif number == "44":
+        d44()
+        tracker()
+    elif number == "45":
+        d45()
+        tracker()
+    elif number == "46":
+        d46()
+        tracker()
+    elif number == "47":
+        d47()
+        tracker()
+    elif number == "48":
+        d48()
+        tracker()
+    elif number == "49":
+        d49()
+        tracker()
+    elif number == "50":
+        d50()
         tracker()
     exit()
 
