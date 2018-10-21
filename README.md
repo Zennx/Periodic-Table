@@ -6,4 +6,6 @@ How t exit:Just tap enter.
 
 Physical data is collected from [Jefferson Lab](https://education.jlab.org/itselemental/index_txt.html).
 
-Written by Zen
+=======
+How to exit:Just tap enter.
+>>>>>>> ec102da3e7d7e2f0093f00d09deca3ad917efb47
