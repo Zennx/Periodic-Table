@@ -606,6 +606,455 @@ def d50():
     print ("Period Number: 5    Group Number: 14")
     clr()
 
+def d51():
+    print ("This is Antimony [Sb]")
+    print ("Atomic Number: 51")
+    print ("tomic Weight: 121.760")
+    print ("Melting Point: 903.78 K (630.63°C or 1167.13°F)")
+    print ("Boiling Point: 1860 K (1587°C or 2889°F)")
+    print ("Density: 6.685 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Semi-metal")
+    print ("Period Number: 5    Group Number: 15    Group Name: Pnictogen")
+    clr()
+
+def d52():
+    print ("This is Tellurium [Te]")
+    print ("Atomic Number: 52")
+    print ("Atomic Weight: 127.60")
+    print ("Melting Point: 722.66 K (449.51°C or 841.12°F)")
+    print ("Boiling Point: 1261 K (988°C or 1810°F)")
+    print ("Density: 6.232 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Semi-metal")
+    print ("Period Number: 5    Group Number: 16    Group Name: Chalcogen")
+    clr()
+
+def d53():
+    print ("This is Iodine [I]")
+    print ("Atomic Number: 53")
+    print ("Atomic Weight: 126.90447")
+    print ("Melting Point: 386.85 K (113.7°C or 236.7°F)")
+    print ("Boiling Point: 457.55 K (184.4°C or 364.0°F)")
+    print ("Density: 4.93 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Non-metal")
+    print ("Period Number: 5    Group Number: 17    Group Name: Halogen")
+    clr()
+
+def d54():
+    print ("This is Xenon [Xe]")
+    print ("Atomic Number: 54")
+    print ("Atomic Weight: 131.293")
+    print ("Melting Point: 161.36 K (-111.79°C or -169.22°F)")
+    print ("Boiling Point: 165.03 K (-108.12°C or -162.62°F)")
+    print ("Density: 0.005887 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Gas")
+    print ("Element Classification: Non-metal")
+    print ("Period Number: 5    Group Number: 18    Group Name: Noble Gas")
+    clr()
+
+def d55():
+    print ("This is Cesium [Cs]")
+    print ("Atomic Number: 55")
+    print ("Atomic Weight: 132.90545196")
+    print ("Melting Point: 301.59 K (28.44°C or 83.19°F)")
+    print ("Boiling Point: 944 K (671°C or 1240°F)")
+    print ("Density: 1.93 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 1    Group Name: Alkali Metal")
+    clr()
+
+def d56():
+    print ("This is Barium [Ba]")
+    print ("Atomic Number: 56")
+    print ("Atomic Weight: 137.327")
+    print ("Melting Point: 1000 K (727°C or 1341°F)")
+    print ("Boiling Point: 2170 K (1897°C or 3447°F)")
+    print ("Density: 3.62 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 2    Group Name: Alkaline Earth Metal")
+    clr()
+
+def d57():
+    print ("This is Lanthanum [La]")
+    print ("Atomic Number: 57")
+    print ("Atomic Weight: 138.90547")
+    print ("Melting Point: 1191 K (918°C or 1684°F)")
+    print ("Boiling Point: 3737 K (3464°C or 6267°F)")
+    print ("Density: 6.15 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d58():
+    print ("This is Cerium [Ce]")
+    print ("Atomic Number: 58")
+    print ("Atomic Weight: 140.116")
+    print ("Melting Point: 1071 K (798°C or 1468°F)")
+    print ("Boiling Point: 3697 K (3424°C or 6195°F)")
+    print ("Density: 6.770 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d59():
+    print ("This is Praseodymium [Pr]")
+    print ("Atomic Number: 59")
+    print ("Atomic Weight: 140.90766")
+    print ("Melting Point: 1204 K (931°C or 1708°F)")
+    print ("Boiling Point: 3793 K (3520°C or 6368°F)")
+    print ("Density: 6.77 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d60():
+    print ("This is Neodymium [Nd]")
+    print ("Atomic Number: 60")
+    print ("Atomic Weight: 144.242")
+    print ("Melting Point: 1294 K (1021°C or 1870°F)")
+    print ("Boiling Point: 3347 K (3074°C or 5565°F)")
+    print ("Density: 7.01 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d61():
+    print ("This is Promethium [Pm]")
+    print ("Atomic Number: 61")
+    print ("Atomic Weight: 145")
+    print ("Melting Point: 1315 K (1042°C or 1908°F)")
+    print ("Boiling Point: 3273 K (3000°C or 5432°F)")
+    print ("Density: 7.26 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    print ("Radioactive and Artificially Produced")
+    clr()
+
+def d62():
+    print ("This is Samarium [Sm]")
+    print ("Atomic Number: 62")
+    print ("Atomic Weight: 150.36")
+    print ("Melting Point: 1347 K (1074°C or 1965°F)")
+    print ("Boiling Point: 2067 K (1794°C or 3261°F)")
+    print ("Density: 7.52 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d63():
+    print ("This is Europium [Eu]")
+    print ("Atomic Number: 63")
+    print ("Atomic Weight: 151.964")
+    print ("Melting Point: 1095 K (822°C or 1512°F)")
+    print ("Boiling Point: 1802 K (1529°C or 2784°F)")
+    print ("Density: 5.24 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d64():
+    print ("This is Gadolinium [Gd]")
+    print ("Atomic Number: 64")
+    print ("Atomic Weight: 157.25")
+    print ("Melting Point: 1586 K (1313°C or 2395°F)")
+    print ("Boiling Point: 3546 K (3273°C or 5923°F)")
+    print ("Density: 7.90 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d65():
+    print ("This is Terbium [Tb]")
+    print ("Atomic Number: 65")
+    print ("Atomic Weight: 158.92535")
+    print ("Melting Point: 1629 K (1356°C or 2473°F)")
+    print ("Boiling Point: 3503 K (3230°C or 5846°F)")
+    print ("Density: 8.23 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d66():
+    print ("This is Dysprosium [Dy]")
+    print ("Atomic Number: 66")
+    print ("Atomic Weight: 162.500")
+    print ("Melting Point: 1685 K (1412°C or 2574°F)")
+    print ("Boiling Point: 2840 K (2567°C or 4653°F)")
+    print ("Density: 8.55 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d67():
+    print ("This is Holmium [Ho]")
+    print ("Atomic Number: 67")
+    print ("Atomic Weight: 164.93033")
+    print ("Melting Point: 1747 K (1474°C or 2685°F)")
+    print ("Boiling Point: 2973 K (2700°C or 4892°F)")
+    print ("Density: 8.80 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d68():
+    print ("This is Erbium [Er]")
+    print ("Atomic Number: 68")
+    print ("Atomic Weight: 167.259")
+    print ("Melting Point: 1802 K (1529°C or 2784°F)")
+    print ("Boiling Point: 3141 K (2868°C or 5194°F)")
+    print ("Density: 9.07 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d69():
+    print ("This is Thulium [Tm]")
+    print ("Atomic Number: 69")
+    print ("Atomic Weight: 168.93422")
+    print ("Melting Point: 1818 K (1545°C or 2813°F)")
+    print ("Boiling Point: 2223 K (1950°C or 3542°F)")
+    print ("Density: 9.32 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d70():
+    print ("This is Ytterbium [Yb]")
+    print ("Atomic Number: 70")
+    print ("Atomic Weight: 173.045")
+    print ("Melting Point: 1092 K (819°C or 1506°F)")
+    print ("Boiling Point: 1469 K (1196°C or 2185°F)")
+    print ("Density: 6.90 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: none    Group Name: Lanthanide")
+    clr()
+
+def d71():
+    print ("This is Lutetium [Lu]")
+    print ("Atomic Number: 71")
+    print ("Atomic Weight: 174.9668")
+    print ("Melting Point: 1936 K (1663°C or 3025°F)")
+    print ("Boiling Point: 3675 K (3402°C or 6156°F)")
+    print ("Density: 9.84 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 3    Group Name: Lanthanide")
+    clr()
+
+def d72():
+    print ("This is Hafnium [Hf]")
+    print ("Atomic Number: 72")
+    print ("Atomic Weight: 178.49")
+    print ("Melting Point: 2506 K (2233°C or 4051°F)")
+    print ("Boiling Point: 4876 K (4603°C or 8317°F)")
+    print ("Density: 13.3 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 4")
+    clr()
+
+def d73():
+    print ("This is Tantalum [Ta]")
+    print ("Atomic Number: 73")
+    print ("Atomic Weight: 180.94788")
+    print ("Melting Point: 3290 K (3017°C or 5463°F)")
+    print ("Boiling Point: 5731 K (5458°C or 9856°F)")
+    print ("Density: 16.4 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 5")
+    clr()
+
+def d74():
+    print ("This is Tungsten [W]")
+    print ("Atomic Number: 74")
+    print ("Atomic Weight: 183.84")
+    print ("Melting Point: 3695 K (3422°C or 6192°F)")
+    print ("Boiling Point: 5828 K (5555°C or 10031°F)")
+    print ("Density: 19.3 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 6")
+    clr()
+
+def d75():
+    print ("This is Rhenium [Re]")
+    print ("Atomic Number: 75")
+    print ("Atomic Weight: 186.207")
+    print ("Melting Point: 3459 K (3186°C or 5767°F)")
+    print ("Boiling Point: 5869 K (5596°C or 10105°F)")
+    print ("Density: 20.8 grams per cubic centimeter")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 6    Group Number: 7")
+    clr()
+
+def d76():
+    print ("")
+
+def d77():
+    print ("")
+
+def d78():
+    print ("")
+
+def d79():
+    print ("")
+
+def d80():
+    print ("")
+
+def d81():
+    print ("")
+
+def d82():
+    print ("")
+
+def d83():
+    print ("")
+
+def d84():
+    print ("")
+
+def d85():
+    print ("")
+
+def d86():
+    print ("")
+
+def d87():
+    print ("")
+
+def d88():
+    print ("")
+
+def d89():
+    print ("")
+
+def d90():
+    print ("")
+
+def d91():
+    print ("")
+
+def d92():
+    print ("")
+
+def d93():
+    print ("")
+
+def d94():
+    print ("")
+
+def d95():
+    print ("")
+
+def d96():
+    print ("")
+
+def d97():
+    print ("")
+
+def d98():
+    print ("")
+
+def d99():
+    print ("")
+
+def d100():
+    print ("")
+
+def d101():
+    print ("")
+
+def d102():
+    print ("")
+
+def d103():
+    print ("")
+    print ("")
+
+def d104():
+    print ("")
+    print ("")
+
+def d105():
+    print ("")
+    print ("")
+
+def d106():
+    print ("")
+    print ("")
+
+def d107():
+    print ("")
+    print ("")
+
+def d108():
+    print ("")
+    print ("")
+
+def d109():
+    print ("")
+    print ("")
+
+def d110():
+    print ("")
+    print ("")
+
+def d111():
+    print ("")
+    print ("")
+
+def d112():
+    print ("")
+    print ("")
+
+def d113():
+    print ("")
+    print ("")
+
+def d114():
+    print ("")
+    print ("")
+
+def d115():
+    print ("")
+    print ("")
+
+def d116():
+    print ("")
+    print ("")
+
+def d117():
+    print ("")
+    print ("")
+
+def d118():
+    print ("")
+    print ("")
+
+def Games():
+    pass
+
 def tracker() : #main nav
     number = input("Enter a number:")
     print ("                                                     ")
@@ -758,6 +1207,213 @@ def tracker() : #main nav
         tracker()
     elif number == "50":
         d50()
+        tracker()
+    elif number == "51":
+        d51()
+        tracker()
+    elif number == "52":
+        d52()
+        tracker ()
+    elif number == "53":
+        d53()
+        tracker()
+    elif number == "54":
+        d54()
+        tracker()
+    elif number == "55":
+        d55()
+        tracker()
+    elif number == "56":
+        d56()
+        tracker()
+    elif number == "57":
+        d57()
+        tracker()
+    elif number == "58":
+        d58()
+        tracker()
+    elif number == "59":
+        d59()
+        tracker()
+    elif number == "60":
+        d60()
+        tracker()
+    elif number =="61":
+        d61()
+        tracker()
+    elif number =="62":
+        d62()
+        tracker()
+    elif number =="63":
+        d63()
+        tracker()
+    elif number =="64":
+        d4()
+        tracker()
+    elif number =="65":
+        d65()
+        tracker()
+    elif number =="66":
+        d66()
+        tracker()
+    elif number =="67":
+        d67()
+        tracker()
+    elif number =="68":
+        d68()
+        tracker()
+    elif number =="69":
+        d69()
+        tracker()
+    elif number =="70":
+        d70()
+        tracker()
+    elif number =="71":
+        d71()
+        tracker()
+    elif number =="72":
+        d72()
+        tracker()
+    elif number =="73":
+        d73()
+        tracker()
+    elif number =="74":
+        d74()
+        tracker()
+    elif number =="75":
+        d75()
+        tracker()
+    elif number =="76":
+        d76()
+        tracker()
+    elif number =="77":
+        d77()
+        tracker()
+    elif number =="78":
+        d78()
+        tracker()
+    elif number =="79":
+        d79()
+        tracker()
+    elif number =="80":
+        d80()
+        tracker()
+    elif number =="81":
+        d81()
+        tracker()
+    elif number =="82":
+        d82()
+        tracker()
+    elif number =="83":
+        d83()
+        tracker()
+    elif number =="84":
+        d84()
+        tracker()
+    elif number =="85":
+        d85()
+        tracker()
+    elif number =="86":
+        d86()
+        tracker()
+    elif number =="87":
+        d87()
+        tracker()
+    elif number =="88":
+        d88()
+        tracker()
+    elif number =="89":
+        d89()
+        tracker()
+    elif number =="90":
+        d90()
+        tracker()
+    elif number =="91":
+        d91()
+        tracker()
+    elif number =="92":
+        d92()
+        tracker()
+    elif number =="93":
+        d93()
+        tracker()
+    elif number =="94":
+        d94()
+        tracker()
+    elif number =="95":
+        d95()
+        tracker()
+    elif number =="96":
+        d96()
+        tracker()
+    elif number =="97":
+        d97()
+        tracker()
+    elif number =="98":
+        d98()
+        tracker()
+    elif number =="99":
+        d99()
+        tracker()
+    elif number =="100":
+        d100()
+        tracker()
+    elif number =="101":
+        d101()
+        tracker()
+    elif number =="102":
+        d102()
+        tracker()
+    elif number =="103":
+        d103()
+        tracker()
+    elif number =="104":
+        d104()
+        tracker()
+    elif number =="105":
+        d105()
+        tracker()
+    elif number =="106":
+        d106()
+        tracker()
+    elif number =="107":
+        d107()
+        tracker()
+    elif number =="108":
+        d108()
+        tracker()
+    elif number =="109":
+        d109()
+        tracker()
+    elif number =="110":
+        d110()
+        tracker()
+    elif number =="111":
+        d111()
+        tracker()
+    elif number =="112":
+        d112()
+        tracker()
+    elif number =="113":
+        d113()
+        tracker()
+    elif number =="114":
+        d114()
+        tracker()
+    elif number =="115":
+        d115()
+        tracker()
+    elif number =="116":
+        d116()
+        tracker()
+    elif number =="117":
+        d117()
+        tracker()
+    elif number =="118":
+        d118()
+        tracker()
+    elif number == "Games":
+        Games()
         tracker()
     exit()
 
