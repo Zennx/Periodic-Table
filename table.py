@@ -1,5 +1,31 @@
 import os
 import time
+import filecmp
+import winsound
+import tkinter as tk
+
+class Application(tk.Frame): #Exit popup
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.pack()
+        self.create_widgets()
+
+    def create_widgets(self):
+        self.Return = tk.Button(self)
+        self.Return["text"] = "Return"
+        self.Return["command"] = self.no
+        self.Return.pack(side="right")
+
+        self.quit = tk.Button(self, text="QUIT", fg="red",
+                              command=root.destroy)
+        self.quit.pack(side="left")
+
+    def no(self):
+        root.destroy()
+        tracker()
+
+root = tk.Tk()
+app = Application(master=root)
 
 def clr(): #this is for resetting screen
     input ("Press enter to return.")
@@ -1291,62 +1317,196 @@ def d105():
     clr()
 
 def d106():
-    print ("")
-    print ("")
+    print ("This is Seaborgium [Sg]")
+    print ("Atomic Number: 106")
+    print ("Atomic Weight: 271")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 6    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d107():
-    print ("")
-    print ("")
+    print ("This is Bohrium [Bh]")
+    print ("Atomic Number: 107")
+    print ("Atomic Weight: 270")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 7    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d108():
-    print ("")
-    print ("")
+    print ("This is Hassium [Hs]")
+    print ("Atomic Number: 108")
+    print ("Atomic Weight: 270")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 8    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d109():
-    print ("")
-    print ("")
+    print ("This is Meitnerium [Mt]")
+    print ("Atomic Number: 109")
+    print ("Atomic Weight: 278")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 9    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d110():
-    print ("")
-    print ("")
+    print ("This is Darmstadtium [Ds]")
+    print ("Atomic Number: 110")
+    print ("Atomic Weight: 281")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 10    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d111():
-    print ("")
-    print ("")
+    print ("This is Roentgenium [Rg]")
+    print ("Atomic Number: 111")
+    print ("Atomic Weight: 281")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 11    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d112():
-    print ("")
-    print ("")
+    print ("This is Copernicium [Cn]")
+    print ("Atomic Number: 112")
+    print ("Atomic Weight: 285")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("eriod Number: 7    Group Number: 12    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d113():
-    print ("")
-    print ("")
+    print ("This is Nihonium [Nh]")
+    print ("Atomic Number: 113")
+    print ("Atomic Weight: 286")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 13    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d114():
-    print ("")
-    print ("")
+    print ("This is Flerovium [Fl]")
+    print ("Atomic Number: 114")
+    print ("Atomic Weight: 289")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 14    Group Name: none")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d115():
-    print ("")
-    print ("")
+    print ("This is Moscovium [Mc]")
+    print ("Atomic Number: 115")
+    print ("Atomic Weight: 289")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 15    Group Name: Pnictogen")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d116():
-    print ("")
-    print ("")
+    print ("This is Livermorium [Lv]")
+    print ("Atomic Number: 116")
+    print ("Atomic Weight: 293")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Metal")
+    print ("Period Number: 7    Group Number: 16    Group Name: Chalcogen")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d117():
-    print ("")
-    print ("")
+    print ("This is Tennessine [Ts]")
+    print ("Atomic Number: 117")
+    print ("Atomic Weight: 294")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Solid")
+    print ("Element Classification: Unknown")
+    print ("Period Number: 7    Group Number: 17    Group Name: Halogen")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
 def d118():
-    print ("")
-    print ("")
+    print ("This is Oganesson [Og]")
+    print ("Atomic Number: 118")
+    print ("Atomic Weight: 294")
+    print ("Melting Point: Unknown")
+    print ("Boiling Point: Unknown")
+    print ("Density: Unknown")
+    print ("Phase at Room Temperature: Expected to be a Gas")
+    print ("Element Classification: Non-metal")
+    print ("Period Number: 7    Group Number: 18    Group Name: Noble Gas")
+    print ("Radioactive and Artificially Produced")
+    clr()
 
-def Games():
+def Games(): #Game selection
+    print ("Game1-           Game2-          ")
+    select = input("Please Select game:")
+    if select == "Game1":
+        G1()
+        clr()
+    elif select == "Game2":
+        G2()
+        clr()
+
+def G1(): #game1
     pass
 
+def G2(): #game 2
+    pass
+
+def credits(): #credits
+    print ("Written by Zen")
+    clr()
+
 def tracker() : #main nav
-    number = input("Enter a number:")
+    number = input("Enter a task:")
     print ("                                                     ")
     if number == "1" :
         d1()
@@ -1705,8 +1865,11 @@ def tracker() : #main nav
     elif number == "Games":
         Games()
         tracker()
-    exit()
+    elif number == "Credits":
+        credits()
+        tracker()
+    os.system("cls")
+    app.mainloop()
 
-
-#game -lol under construction
+print ("Enter a number to search elements(1-118).Type Games for games and Credits for Credits.Press enter to exit.")
 tracker()
