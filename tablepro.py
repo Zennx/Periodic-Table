@@ -38,6 +38,10 @@ def d1(): #elements
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 1    Group Number: 1")
+    print ("Number of Stable Isotopes: 2 ")
+    print ("Ionization Energy: 13.598 eV")
+    print ("Oxidation States: +1, -1")
+    print ("Electron Shell Configuration: 1s1")
     clr()
 
 def d2(): 
