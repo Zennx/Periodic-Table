@@ -54,6 +54,10 @@ def d2():
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 1    Group Number: 18    Group Name: Noble Gas")
+    print ("Number of Stable Isotopes: 2")
+    print ("Ionization Energy: 24.587 eV")
+    print ("Oxidation States: 0")
+    print ("Electron Shell Configuration:1s2")
     clr()
 
 def d3(): 
@@ -66,6 +70,10 @@ def d3():
     print ("Phase at Room Temperature: Solid")
     print ("Element Classification: Metal")
     print ("Period Number: 2    Group Number: 1    Group Name: Alkali Metal")
+    print ("Number of Stable Isotopes: 2")
+    print ("Ionization Energy: 5.392 eV")
+    print ("Oxidation States: +1")
+    print ("Electron Shell Configuration:1s2 2s1")
     clr()
 
 def d4():
@@ -77,7 +85,11 @@ def d4():
     print ("Density: 1.85 grams per cubic centimeter")
     print ("Phase at Room Temperature: Solid")
     print ("Element Classification: Metal")
-    print("Period Number: 2    Group Number: 2    Group Name: Alkaline Earth Metal")
+    print ("Period Number: 2    Group Number: 2    Group Name: Alkaline Earth Metal")
+    print ("Number of Stable Isotopes: 1")
+    print ("Ionization Energy: 9.323 eV")
+    print ("Oxidation States: +2")
+    print ("Electron Shell Configuration:1s2 2s2")
     clr()
 
 def d5():
@@ -89,7 +101,11 @@ def d5():
     print ("Density: 2.37 grams per cubic centimeter")
     print ("Phase at Room Temperature: Solid")
     print ("Element Classification: Semi-metal")
-    print("Period Number: 2    Group Number: 13")
+    print ("Period Number: 2    Group Number: 13")
+    print ("Number of Stable Isotopes: 2")
+    print ("Ionization Energy: 8.298 eV")
+    print ("Oxidation States: +3")
+    print ("Electron Shell Configuration:1s2 2s2 2p1")
     clr()
 
 def d6():
@@ -102,6 +118,10 @@ def d6():
     print ("Phase at Room Temperature: Solid")
     print ("Element Classification: Non-metal")
     print ("Period Number: 2    Group Number: 14")
+    print ("Number of Stable Isotopes: 2")
+    print ("Ionization Energy: 11.260 eV")
+    print ("Oxidation States: +4, +2, -4")
+    print ("Electron Shell Configuration:1s2 2s2 2p2")
     clr()
 
 def d7():
@@ -114,6 +134,10 @@ def d7():
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 2    Group Number: 15    Group Name: Pnictogen")
+    print ("Number of Stable Isotopes: 2")
+    print ("Ionization Energy: 14.534 eV")
+    print ("Oxidation States: +5, +4, +3, +2, +1, -1, -2, -3")
+    print ("Electron Shell Configuration:1s2 2s2 2p3")
     clr()
 
 def d8():
@@ -126,6 +150,10 @@ def d8():
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 2    Group Number: 16    Group Name: Chalcogen")
+    print ("Number of Stable Isotopes: 3")
+    print ("Ionization Energy: 13.618 eV")
+    print ("Oxidation States: -2")
+    print ("Electron Shell Configuration:1s2 2s2 2p4")
     clr()
 
 def d9():
@@ -138,6 +166,10 @@ def d9():
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 2    Group Number: 17    Group Name: Halogen")
+    print ("Number of Stable Isotopes: 1")
+    print ("Ionization Energy: 17.423 eV")
+    print ("Oxidation States: -1")
+    print ("Electron Shell Configuration:1s2 2s2 2p5")
     clr()
 
 def d10():
@@ -150,6 +182,10 @@ def d10():
     print ("Phase at Room Temperature: Gas")
     print ("Element Classification: Non-metal")
     print ("Period Number: 2    Group Number: 18    Group Name: Noble Gas")
+    print ("Number of Stable Isotopes: 3")
+    print ("Ionization Energy: 21.565 eV")
+    print ("Oxidation States: 0")
+    print ("Electron Shell Configuration:1s2 2s2 2p6")
     clr()
 
 def d11():
